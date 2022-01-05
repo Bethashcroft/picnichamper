@@ -63,7 +63,22 @@ a {
   justify-content: center;
 }
 
-#menulist {
+#option1 {
+  font-family: Century Gothic;
+  color: black;
+}
+
+#list1 {
+  font-family: Century Gothic;
+  color: black;
+}
+
+#option2 {
+  font-family: Century Gothic;
+  color: black;
+}
+
+#list2 {
   font-family: Century Gothic;
   color: black;
 }
