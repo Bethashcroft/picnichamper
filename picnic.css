@@ -60,4 +60,10 @@ a {
 
 #menutitle {
   color: black;
+  justify-content: center;
+}
+
+#menulist {
+  font-family: Century Gothic;
+  color: black;
 }
