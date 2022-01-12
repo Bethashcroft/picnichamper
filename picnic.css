@@ -59,30 +59,34 @@ a {
 }
 
 #menutitle {
-  color: black;
+  color: white;
   justify-content: center;
+  font-size: xx-large;
 }
 
-#option1 {
+#menu1title {
+  border-bottom: 0em;
+  width: 100%;
+  border-color: black;
+}
+
+#menuone {
+  margin-top: 50px;
   font-family: Century Gothic;
   color: black;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  justify-content: center;
+  align-items: center;
 }
 
-#list1 {
+#menutwo {
   font-family: Century Gothic;
-  color: black;
-}
-
-#option2 {
-  font-family: Century Gothic;
-  color: black;
-}
-
-#list2 {
-  font-family: Century Gothic;
-  color: black;
-}
-
-#disclaimer {
-  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  margin-left: 650px;
+  margin-top: -162px;
+  justify-content: center;
+  align-items: center;
 }
