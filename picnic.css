@@ -64,6 +64,13 @@ a {
   font-size: xx-large;
 }
 
+#menus {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  gap: 25em;
+}
+
 #menu1title {
   border-bottom: 0em;
   width: 100%;
@@ -71,22 +78,19 @@ a {
 }
 
 #menuone {
-  margin-top: 50px;
   font-family: Century Gothic;
   color: black;
   border-style: solid;
   border-color: black;
   border-collapse: collapse;
-  justify-content: center;
-  align-items: center;
 }
 
 #menutwo {
   font-family: Century Gothic;
   border-style: solid;
   border-color: black;
-  margin-left: 650px;
-  margin-top: -162px;
-  justify-content: center;
-  align-items: center;
+}
+
+#body {
+  margin: 0;
 }
