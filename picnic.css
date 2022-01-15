@@ -52,9 +52,12 @@ a {
 #footer {
   display: flex;
   background-color: black;
+  justify-content: space-between;
 }
 
-#number {
+#number,
+#established,
+#copyright {
   color: white;
 }
 
@@ -66,9 +69,11 @@ a {
 
 #menus {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 5em;
-  gap: 25em;
+  justify-content: space-between;
+  padding-top: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  gap: 20em;
 }
 
 #menu1title {
@@ -78,19 +83,38 @@ a {
 }
 
 #menuone {
+  box-shadow: none;
   font-family: Century Gothic;
   color: black;
   border-style: solid;
   border-color: black;
   border-collapse: collapse;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#menuone:hover {
+  box-shadow: 5px 5px 10px grey;
+  cursor: pointer;
 }
 
 #menutwo {
+  box-shadow: none;
   font-family: Century Gothic;
   border-style: solid;
   border-color: black;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#menutwo:hover {
+  box-shadow: 5px 5px 10px grey;
+  cursor: pointer;
 }
 
 #body {
   margin: 0;
+}
+
+#disclaimer:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
