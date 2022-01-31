@@ -53,6 +53,11 @@ a {
   display: flex;
   background-color: black;
   justify-content: space-between;
+  padding-bottom: 2em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 #number,
@@ -117,4 +122,23 @@ a {
 #disclaimer:hover {
   text-decoration: none;
   font-weight: bold;
+}
+
+#aboutus,
+#abouthead {
+  font-family: Century Gothic;
+}
+
+#contactus {
+  font-family: Century Gothic;
+  padding-top: 2em;
+}
+
+#query {
+  height: 100px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
