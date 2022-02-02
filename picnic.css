@@ -132,20 +132,34 @@ a {
 
 #contactus {
   font-family: Century Gothic;
-  text-align: center;
+  text-align: left;
+  display: inline-block;
   border: solid 2px black;
   border-radius: 2em;
   width: 25em;
   padding: 1em;
 }
 
+#form {
+  padding: 1em;
+  display: block;
+  text-align: center;
+}
+
+#submit {
+  text-align: center;
+}
 #contactpage {
   font-family: Century Gothic;
   text-align: center;
 }
 
 #query {
-  height: 100px;
+  height: 30px;
+  box-sizing: border-box;
+  width: 20em;
+  padding-bottom: 10em;
+  padding-top: 1em;
 }
 
 input::-webkit-inner-spin-button {
