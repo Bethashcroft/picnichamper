@@ -160,3 +160,14 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  #navibar1,
+  #navibar2 {
+    flex-direction: column;
+    border: solid 2px white;
+    padding: 0.2em;
+    text-decoration: none;
+    border-radius: 12px;
+  }
+}
