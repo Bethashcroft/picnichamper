@@ -82,11 +82,11 @@ a {
 
 #menus {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding-top: 3em;
   padding-left: 3em;
   padding-right: 3em;
-  gap: 20em;
+  gap: 5em;
 }
 
 #menu1title {
