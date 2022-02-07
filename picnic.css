@@ -65,7 +65,7 @@ a {
 }
 
 #divfoot {
-  padding-top: 5em;
+  padding-top: 3em;
 }
 
 #number,
@@ -187,5 +187,10 @@ input::-webkit-inner-spin-button {
     padding: 0.2em;
     text-decoration: none;
     border-radius: 12px;
+  }
+
+  #menus {
+    display: flex;
+    flex-direction: column;
   }
 }
