@@ -180,6 +180,10 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 768px) {
+  #body {
+    font-family: Century Gothic;
+  }
+
   #navibar1,
   #navibar2 {
     flex-direction: column;
@@ -192,9 +196,14 @@ input::-webkit-inner-spin-button {
   #menus {
     display: flex;
     flex-direction: column;
+    gap: 5em;
   }
 
   #form {
     display: flex;
+  }
+
+  #divfoot {
+    padding-top: 15em;
   }
 }
