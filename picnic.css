@@ -203,7 +203,10 @@ input::-webkit-inner-spin-button {
     display: flex;
   }
 
-  #divfoot {
-    padding-top: 15em;
+  #footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 190px;
   }
 }
