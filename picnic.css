@@ -193,4 +193,8 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: column;
   }
+
+  #form {
+    display: flex;
+  }
 }
