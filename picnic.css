@@ -64,10 +64,6 @@ a {
   justify-content: space-between;
 }
 
-#divfoot {
-  padding-top: 3em;
-}
-
 #number,
 #established,
 #copyright {
@@ -125,6 +121,9 @@ a {
 
 #body {
   margin: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 #disclaimer:hover {
@@ -182,6 +181,9 @@ input::-webkit-inner-spin-button {
 @media (max-width: 768px) {
   #body {
     font-family: Century Gothic;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
   }
 
   #navibar1,
