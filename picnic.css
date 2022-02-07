@@ -204,9 +204,9 @@ input::-webkit-inner-spin-button {
   }
 
   #footer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 190px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 }
