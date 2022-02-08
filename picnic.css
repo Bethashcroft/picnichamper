@@ -182,10 +182,6 @@ input::-webkit-inner-spin-button {
 @media (max-width: 768px) {
   #body {
     font-family: Century Gothic;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
   }
 
   #navibar1,
