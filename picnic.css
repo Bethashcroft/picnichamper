@@ -21,6 +21,7 @@ a {
   font-family: Century Gothic;
   text-align: center;
   font-size: large;
+  gap: 2em;
 }
 
 #logo {
@@ -138,7 +139,8 @@ a {
 }
 
 #aboutus,
-#contacthead {
+#contacthead,
+#homeintro {
   font-family: Century Gothic;
 }
 
